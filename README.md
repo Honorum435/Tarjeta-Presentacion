@@ -21,7 +21,7 @@ Es ideal como presentación rápida para compartir en redes, portfolios o QR.
 ## 🛠️ Tecnologías usadas
 
 - HTML5
-- CSS3
+- CSS
 
 ## 📦 Cómo usar
 
