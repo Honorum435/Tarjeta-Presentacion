@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Titular';
+    src: url('../fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'card';
+    src: url('../fonts/EduVICWANTHandPre-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+
+    background-color: #5A827E;
+    margin: 0;
+    padding: 40px 50px;
+    color: #332f35;
+    
+}
+h1 {
+    border-color: #B13BFF;
+   border-radius: 20px;
+    font-family: 'card', serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+.profile-pic {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    align-items: center;
+}
+.profile-pic:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+.card {
+    font-family: 'titular', sans-serif;
+    color: #070606;
+    background-color: #84AE92;
+    border-radius: 10px;
+    padding: 20px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column; /* Cambia de fila a columna */
+    max-width: 500px;
+    margin: 0 auto;
+}
+.card:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+    box-shadow: 30px 35px 40px rgba(105, 1, 1, 0.3);
+}
+.card-body {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+}
